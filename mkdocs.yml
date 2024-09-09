@@ -12,6 +12,9 @@ theme:
     - navigation.sections
     - search.suggest
     - search.highlight
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
   language: en
   palette:
     - scheme: default
@@ -27,9 +30,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Overview: overview.md
-  - Getting Started:
-    - getting_started.md 
+  - Getting Started: getting_started.md 
 
 markdown_extensions:
   - attr_list
@@ -39,6 +40,13 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 
 copyright: |
   &copy; 2024 Kevin Knights.
