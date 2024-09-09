@@ -1,0 +1,54 @@
+site_name: Compass 
+site_description: Internal developer portal to streamline development workflows and best practices
+repo_url: https://github.com/kevinknights29/Compass
+repo_name: Compass
+theme:
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/compass.png
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/theme-light-dark
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/theme-light-dark
+      primary: teal
+      accent: lime
+
+nav:
+  - Home: index.md
+  - Overview: overview.md
+  - Getting Started:
+    - getting_started.md 
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+
+copyright: |
+  &copy; 2024 Kevin Knights.
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/your-org
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/your-org
+
+plugins:
+  - search
