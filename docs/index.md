@@ -49,6 +49,8 @@ Compass is designed to grow with your organization's needs. By starting with a l
 
 Our approach prioritizes ease of use and quick start-up, allowing you to focus on creating and following Golden Paths rather than managing a complex system. Whether you're a small team just starting with best practices documentation or a larger organization looking to streamline your development processes, Compass provides a flexible, scalable solution for implementing Golden Paths.
 
+To Get Started please visit: [Getting Started](getting_started.md)
+
 ---
 
 *Inspired by Spotify's approach to Golden Paths. Learn more about their implementation in their [engineering blog post](https://engineering.atspotify.com/2020/08/how-we-use-golden-paths-to-solve-fragmentation-in-our-software-ecosystem/).*
