@@ -16,6 +16,8 @@ Compass is a lightweight, easy-to-use developer portal designed to implement and
 
 ![image](https://github.com/user-attachments/assets/18ffbcc2-fa65-4043-b334-f8935f46b0bc)
 
+![image](https://github.com/user-attachments/assets/8386353f-ad72-4db9-bd1e-d2e8529703c7)
+
 ## Goals
 
 1. Provide a centralized hub for golden path documentation
